@@ -104,3 +104,9 @@ ul li span:hover {
     font-size: 25px;
     font-weight: 10px;
 }
+@media (max-width: 768px) {
+    .row {
+        flex-direction: row; /* Resetting flex direction for larger screens */
+        align-items: center; /* Resetting alignment for larger screens */
+    }
+}
